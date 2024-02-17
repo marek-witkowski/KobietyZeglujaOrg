@@ -1,0 +1,28 @@
+title: Stowarzyszenie Kobiety Żeglują
+description: Kobiety Żeglują to grupa kobiet połączonych wspólną pasją - żeglarstwem!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.kobietyzegluja.org"
+
+
+facebook: StowarzyszenieKobietyZegluja
+instagram: stowarzyszeniekobietyzegluja
+linkedin: stowarzyszenie-kobiety-zegluja
+
+email: biuro@kobietyzegluja.org
+phone: 732 713 184
+nip: 0011224433
+regon: 527122005
+address: Dunikowskiego 15B m. 14, 80-524 Gdańsk
+
+
+
+source: source
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+exclude:
+  - _szablon
+

@@ -1,6 +1,7 @@
-_szablon
 _site
+_szablon
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.idea
 vendor

@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<!-- ======= Team Section ======= -->
+<section id="team" class="team">
+    <div class="container">
+
+        <div class="row">
+
+            {% for member in site.data.members %}
+
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <img src="assets/img/team/team-1.jpg" alt="">
+                    <h4>{{ member.name }}</h4>
+                    <span>{{ member.title }}</span>
+                    <p>
+                        {{ member.description }}
+                    </p>
+                    <div class="social">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+</section><!-- End Team Section -->
