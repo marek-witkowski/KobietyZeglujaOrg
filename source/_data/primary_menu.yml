@@ -1,0 +1,14 @@
+- name: O nas
+  link: /o-nas
+
+- name: Wiedza i inspiracje
+  link: /wiedza-i-inspiracje
+
+- name: Aktualności i ogłoszenia
+  link: /aktualnosci-i-ogloszenia
+
+- name: Media
+  link: /media
+
+- name: Kontakt
+  link: /kontakt

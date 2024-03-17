@@ -1,23 +1,29 @@
 - name: Emilia Magdalena Witkowska
   title: Prezes Zarządu
+  phone:
   photo:
   description:
   facebook:
   instagram:
   linkedin:
+  website: https://www.onsails.pl
 
 - name: Marta Borkowska
   title: Członek Zarządu
+  phone:
   photo:
   description:
   facebook:
   instagram:
   linkedin:
+  website:
 
 - name: Barbara Staniewicz-Zalewska
   title: Członek Zarządu
+  phone:
   photo:
   description:
   facebook:
   instagram:
   linkedin:
+  website:

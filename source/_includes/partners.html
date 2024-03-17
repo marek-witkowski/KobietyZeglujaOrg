@@ -3,15 +3,23 @@
     <div class="container">
 
         <div class="section-title">
-            <h2>Partnerzy</h2>
-            <p>Opis</p>
+            <h2>Partnerzy Stowarzyszenia</h2>
+            <p>Jesteśmy częścią żeglarskiej społeczności. Znamy się, lubimy i wspieramy. Z niektórymi nawet wchodzimy w
+                trwałe związki partnerskie ;)
+                Zapraszamy do poznania naszych partnerów oraz ich oferty. Gwarantujemy, że to sprawdzone żeglarsko i
+                wiarygodne firmy.
+            </p>
         </div>
 
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
 
                 {% for partner in site.data.partners %}
-                    <div class="swiper-slide"><img src="assets/img/partners/{{ partner.logo }}" class="img-fluid" alt="{{ partner.name }}"></div>
+                <div class="swiper-slide">
+                    <a href="{{ partner.link }}" target="_blank">
+                        <img src="assets/img/partners/{{ partner.logo }}" class="img-fluid" alt="{{ partner.name }}">
+                    </a>
+                </div>
                 {% endfor %}
 
             </div>
