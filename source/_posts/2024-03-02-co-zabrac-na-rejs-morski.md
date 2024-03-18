@@ -4,7 +4,7 @@ title:  "Co zabrać na rejs morski?"
 coverimage:
 author: "Emilia Witkowska"
 date:   2024-03-02 09:02:22 +0100
-category: poradniki
+category: wiedza
 ---
 
 
